@@ -47,7 +47,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `npm run test`
+```
+npm run test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://jestjs.io/docs/getting-started) for more information.
