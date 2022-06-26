@@ -4,7 +4,7 @@ This project was bootstrapped with [Vite](https://vitejs.dev/), as a template.
 
 <p align="center">
 
-<img src="src/assets/screen-shot.png" width="500">
+<img src="src/assets/screen-shot.png" width="550">
 
 </p>
 
