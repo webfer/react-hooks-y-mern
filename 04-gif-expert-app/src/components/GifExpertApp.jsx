@@ -5,7 +5,6 @@ import { GifGrid } from './GifGrid';
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState(['One Punch']);
   const onAddCategory = (newCategory) => {
-    // Valorant
     // const item = 'Valorant';
     // setCategories((cat) => [...cat, item]); // Other valit way
     if (categories.includes(newCategory)) return; // Validation for avoid duplicate categories
