@@ -1,8 +1,6 @@
 import { useCounter, useFetch } from '../hooks';
 import { Loading, Quote } from './';
 
-//
-
 export const MultipleCustomHook = () => {
   const { counter, increase, decrease } = useCounter(1);
 
@@ -29,6 +27,7 @@ export const MultipleCustomHook = () => {
         </button>
       ) : null}
       <button
+        aria-label="btn-next"
         disabled={isLoading}
         onClick={() => increase()}
         className="btn btn-primary float-end"
